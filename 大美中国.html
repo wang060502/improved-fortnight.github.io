@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>大美中国</title>
+</head>
+<body>
+  <div class="html">
+    <!-- 头部 -->
+    <div class="header">
+      <div class="headertitle w">
+        <div style="height: 10px; float: left;"></div>
+        <div class="headerleft">
+          <div class="headerimg">
+            <!-- <img src="./image/header_logo.png" alt=""> -->
+          </div>
+          <div class="headerh1">
+            <h1>智慧党建云平台</h1>
+          </div>
+        </div>
+        <div class="headerright">
+          <!-- 修改搜索表单 -->
+          <form action="search.php" method="GET">
+            <input type="text" name="query" placeholder="请输入标题" style="height: 50px; line-height: 50px;">
+            <button type="submit" style="width: 100px;height: 50px;"><h4>搜索</h4></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- tab栏 -->
+    <div class="tab">
+      <div class="tabs w">
+        <ul class="tabsnav">
+          <li>
+            <a href="./智慧党建.html">首页</a>
+          </li>
+          <li>
+            <a href="./党建动态.html">党建动态</a>
+          </li>
+          <li>
+            <a href="./大美中国.html">大美中国</a>
+          </li>
+          <li>
+            <a href="#">专题专栏</a>
+          </li>
+          <li>
+            <a href="#">志愿服务</a>
+          </li>
+          <li>
+            <a href="#">组织活动</a>
+            <ul>
+              <li><a href="#">党建服务中心</a></li>
+              <li><a href="#">党群活动</a></li>
+              <li><a href="#">主题党日</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">学习中心</a>
+            <ul>
+              <li><a href="#">支部推荐课</a></li>
+              <li><a href="#">党员推荐课</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">三会一课</a>
+          </li>
+          <li>
+            <a href="#">问卷调查</a>
+          </li>
+          <li>
+            <a href="#">积分统计</a>
+          </li>
+          <li>
+            <a href="./基层党建.html">基层党建</a>
+            <ul>
+              <li><a href="#">综合</a></li>
+              <li><a href="#">农村</a></li>
+              <li><a href="#">城市基层</a></li>
+              <li><a href="#">机关</a></li>
+              <li><a href="#">国有企业</a></li>
+              <li><a href="#">事业单位</a></li>
+              <li><a href="#">高校</a></li>
+              <li><a href="#">非公企业和社会组织</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 大美中国 -->
+    <div class="Special w">
+      <div class="Specialtop">
+        <div class="specialtopleft">
+          <a href="#">
+            图片展示
+          </a>
+        </div>
+        <div class="specialtopright">
+          <a href="#">当前位置 : 首页 > 大美中国</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 图片展示 -->
+    <div class="all">
+      <div style="background-image: url(./image/大美中国/1.jpg);">
+        <span></span><img src="./image/大美中国/1.jpg"/>
+      </div>
+      <div  style="background-image: url(./image/大美中国/2.jpg);">
+        <span></span><img src="./image/大美中国/2.jpg"/>
+      </div>
+      <div  style="background-image: url(./image/大美中国/3.jpg);">
+        <span></span><img src="./image/大美中国/3.jpg"/>
+      </div>
+      <div data-index="3" style="background-image: url(./image/大美中国/4.jpg);">
+        <span></span><img src="./image/大美中国/4.jpg"/>
+      </div>
+      <div  style="background-image: url(./image/大美中国/5.jpg);">
+        <span></span><img src="./image/大美中国/5.jpg"/>
+      </div>
+      <div  style="background-image: url(./image/大美中国/6.jpg);">
+        <span></span><img src="./image/大美中国/6.jpg"/>
+      </div>
+      <div  style="background-image: url(./image/大美中国/7.jpg);">
+        <span></span><img src="./image/大美中国/7.jpg"/>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
+<link rel="stylesheet" href="./css/SmartPartyBuilding.css">
+<style>
+  /* tab栏 */
+  .tabsnav>li:nth-child(3){
+  background-color: rgb(233, 49, 46);
+}
+.tabsnav>li:nth-child(3) a{
+  color: white;
+}
+/* 基层党建 */
+.Special{
+  height: 40px;
+  /* background-color: aqua; */
+  margin-top: 20px;
+}
+.Specialtop{
+  width: 100%;
+  height: 40px;
+  /* background-color: tomato; */
+}
+/* 党建内容 */
+.specialtopleft{
+float: left;
+width: 160px;
+height: 100%;
+text-align: center;
+background: url(./image/slided-mu1.png) no-repeat right bottom;
+}
+.specialtopleft a{
+    display: block;
+    margin: 10px 20px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.specialtopright{
+  float: right;
+width: 220px;
+height: 100%;
+/* background-color: rgb(5, 215, 82); */
+text-align: center;
+}
+.specialtopright a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  margin: 15px 20px;
+}
+/* 图片展示 */
+        .all {
+            position: relative;
+            line-height: 424px;
+            width: 1000px;
+            height: 424px;
+            margin: 200px;
+        }
+
+        .all > div {
+            position: absolute;
+            border: 1px solid silver;
+            background: #ebffc6;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .all>div>span{
+            position: absolute;
+            display: inline-block;
+            width: 100%;;
+            text-align: center;
+        }
+        img {
+            position: absolute;
+            width: 100%;
+            height: 0;
+            top: 50%;
+        }
+</style>
+<script src="./js/jquery-3.7.1.js"></script>
+<script>
+    //tab栏切换 展示二级菜单
+$(function(){
+ $(".tabsnav li").hover(function(){
+  $(this).css('background','rgb(233, 49, 46)');
+  $(this).children("a").css("color", "white");
+  $(this).children('ul').stop().slideDown();
+  $(this).find('ul li a').css('color','black');
+ },function(){
+  $(this).css('background','white');
+  $(this).children("a").css("color", "black");
+  $('.tabsnav>li:nth-child(3)').css('background','rgb(233, 49, 46)');
+  $('.tabsnav>li:nth-child(3)').children("a").css("color", "white");
+  $(this).children('ul').stop().slideUp();
+ });
+
+ $(".tabsnav>li ul li").hover(function(){
+  $(this).children("a").css("color", "white");
+ },function(){
+  $(this).children("a").css("color", "black");
+  $(this).css('background','rgb(233, 49, 46)'); // Add this line to keep background color unchanged
+ });
+});
+
+
+//图片展示逻辑
+// 只需要变化图片的高以及div的宽即可。
+$(function () {
+    // 设置初始图片的宽高
+    setWAndH($(".all>div:nth-of-type(4)").attr("data-index"));
+    // 当图片被点击时触发事件
+    $(".all>div").on("click", function () {
+        // 设置对应索引的图片宽高
+        setWAndH($(this).attr("data-index"));
+    });
+
+    // 定义设置图片和div宽高的函数
+    function setWAndH(indexTemp) {
+        // 遍历所有图片展示区域的div
+        $(".all>div").each(function (index) {
+            // 如果当前div没有data-index属性，则为其设置默认值
+            if (!$(this).attr("data-index")) {
+                $(this).attr("data-index", index);
+            }
+            // 初始化左边距值
+            var leftTemp = 0;
+            // 根据传入的索引值设置当前div的宽高和位置
+            if (indexTemp == index) {
+                // 计算左边距
+                leftTemp = index * 60;
+                // 设置当前div的宽高和位置，并使用动画效果
+                $(this).stop(false, true).animate({
+                    width: 800,
+                    height: 500 - Math.abs(indexTemp - index) * 22,
+                    left: leftTemp
+                }).children("img").stop(false, true).animate({
+                    height: "100%",
+                    opacity: 1,
+                    top: 0
+                }, 300);
+            } else {
+                // 计算左边距
+                if (index > indexTemp) {
+                    leftTemp = (index - 1) * 60 + 800;
+                } else {
+                    leftTemp = index * 60;
+                }
+                // 设置当前div的宽高和位置，并使用动画效果
+                $(this).stop(false, true).animate({
+                    width: 60,
+                    height: 500 - Math.abs(indexTemp - index) * 32,
+                    left: leftTemp
+                }).children("img").stop(false, true).animate({
+                    height: 0,
+                    opacity: 0,
+                    top: "50%"
+                }, 300);
+            }
+            // 设置高度
+        });
+    }
+});
+</script>
+</body>
+</html>
